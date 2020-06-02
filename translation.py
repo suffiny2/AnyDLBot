@@ -1,6 +1,11 @@
 class Translation(object):
-    START_TEXT = """This is an @AnyDLBot clone created using the Open Source code available.
-Source Code: https://github.com/SpEcHiDe/AnyDLBot
+    START_TEXT = """This is a Telegram Bot to get public links ! 
+    Just send me any Telegram Document File, and get the link Instantly.
+    The Links are instanty Generated!
+    
+    Note: Download Links May Expire After Your Download is Completed!
+    
+
 © @AnyDLBot"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
