@@ -2,6 +2,11 @@ class Translation(object):
     START_TEXT = """This is a Telegram Bot to get public links ! 
     Just send me any Telegram Document File, and get the link Instantly.
     The Links are instanty Generated!
+    👉 Forward any files to this bot,and bot will generate its directlink.
+    👉Do not send multiple files at a time.
+    👉If you dont get directlink after 1 hour,forward that file again to the bot
+    👉Direct links are only for personal use,do not share with others.we are not responsible for any content that you generates direct links.
+
     
     Note: Download Links May Expire After Your Download is Completed!
     
@@ -14,8 +19,8 @@ class Translation(object):
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
+    DOWNLOAD_START = "📤 Your Request is in the queue. Do not send another request. Please be patient..."
+    UPLOAD_START = "📤 Your File Trying to upload"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. https://t.me/tlgrmcbot?start=anydl_bot-bot"
